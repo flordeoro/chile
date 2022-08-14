@@ -655,8 +655,11 @@ input {
 @media screen and (max-width: 306px) {
   .new__card{
     width: 100px;
+    margin-bottom: 20px;
   }
 }
+
+
 
 
 /*=============== FOOTER ===============*/
