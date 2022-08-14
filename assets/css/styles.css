@@ -301,9 +301,7 @@ input {
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 
-.scroll-header .nav__logo,
-.scroll-header .nav__toggle {
-}
+
 
 /* Active link */
 
@@ -399,6 +397,14 @@ input {
 .home__data{
   margin-top: 140px;
 }
+
+@media screen and (max-width: 500px) {
+
+  .home__data{
+    margin-top: 60px;
+  }
+}
+
 
 .button {
   display: inline-block;
